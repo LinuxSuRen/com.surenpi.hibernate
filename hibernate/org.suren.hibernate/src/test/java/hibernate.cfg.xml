@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/test</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">suren</property>
+		<property name="show_sql">true</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+		<mapping class="org.suren.hibernate.po.Student" />
+		
+		<listener type="pre-insert" class="org.suren.hibernate.event.SuRenPreInsertListener" />
+		<listener type="post-insert" class="org.suren.hibernate.event.SuRenPostInsertListener" />
+		<listener type="post-load" class="org.suren.hibernate.event.SuRenPostLoadListener" />
+	</session-factory>
+</hibernate-configuration>
