@@ -16,5 +16,8 @@ import java.lang.annotation.Target;
 @Target({ElementType.FIELD})
 public @interface Encrypt
 {
-
+	/**
+	 * 算法，支持：DES
+	 */
+	String algorithm() default "DES";
 }

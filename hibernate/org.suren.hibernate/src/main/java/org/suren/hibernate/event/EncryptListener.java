@@ -49,7 +49,7 @@ public class EncryptListener
 		for(Field field : fieldList)
 		{
 			PersistenceContext persistenceContext = session.getPersistenceContext();
-			boolean def = persistenceContext.isReadOnly(entity);
+//			boolean def = persistenceContext.isReadOnly(entity);
 			
 			persistenceContext.setReadOnly(entity, true);
 			
@@ -79,7 +79,7 @@ public class EncryptListener
 				e.printStackTrace();
 			}
 			
-			persistenceContext.setReadOnly(entity, def);
+//			persistenceContext.setReadOnly(entity, def);
 		}
 	}
 }
