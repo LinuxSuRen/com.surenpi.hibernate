@@ -1,5 +1,5 @@
 /**
-* Copyright © 1998-2015, Glodon Inc. All Rights Reserved.
+* Copyright © 1998-2015, surenpi.com. All Rights Reserved.
 */
 package org.suren.hibernate.po;
 
@@ -11,7 +11,7 @@ import org.hibernate.annotations.GenericGenerator;
 import org.suren.hibernate.annotation.Encrypt;
 
 /**
- * @author zhaoxj
+ * @author suren
  * @since jdk1.6
  * 2015年11月23日
  */

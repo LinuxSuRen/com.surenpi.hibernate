@@ -1,5 +1,5 @@
 /**
-* Copyright © 1998-2015, Glodon Inc. All Rights Reserved.
+* Copyright © 1998-2015, surenpi.com. All Rights Reserved.
 */
 package org.suren.hibernate;
 
@@ -12,7 +12,7 @@ import org.hibernate.classic.Session;
 import org.suren.hibernate.po.Student;
 
 /**
- * @author zhaoxj
+ * @author suren
  * @since jdk1.6
  * 2015年11月23日
  */
