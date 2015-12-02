@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
+
 	<parent>
 		<groupId>org.suren</groupId>
 		<artifactId>org.suren.parent</artifactId>
@@ -33,4 +33,11 @@
 			<version>3.20.0-GA</version>
 		</dependency>
 	</dependencies>
+	<url>http://surenpi.com</url>
+	<description>在Hibernate的基础上，借助注解（Annotation）实现了对实体类个别字段的透明加解密。在属性上加上注解后，数据库中的数据就是加密后的，而在业务代码中不需要关心加解密的过程。</description>
+	<name>Hibernate透明加解密注解</name>
+	<organization>
+		<name>素人派</name>
+		<url>http://surenpi.com</url>
+	</organization>
 </project>
